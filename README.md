@@ -2,8 +2,6 @@ Employee Review System
 
 This web application facilitates employee feedback submission and management. Employees can provide feedback on each other's performance, with designated roles for both employees and administrators. The application offers distinct dashboard pages based on the user's role. Administrators have the capability to assign reviews to employees and manage employee details, while employees can only submit feedback for assigned reviews.
 
-Hosted Link
-Employee Review System
 
 Demo Link :- https://employee-review-system-c8bj.onrender.com/ 
 Demo Video :- https://vimeo.com/919632803?share=copy
