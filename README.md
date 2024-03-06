@@ -1,33 +1,40 @@
-Employee-Review-System
-This Employee review web application is created for employees to submit feedback toward each other's performance. User's could have either "employee" or "admin" role. There are two dashboard pages based on the role of the employee those dashboard pages will be rendered, User with role of admin can assign employees to participate in review of other employees. Employees can only submit feedback required by assigned reviews.
+Employee Review System
+This web application facilitates employee feedback submission and management. Employees can provide feedback on each other's performance, with designated roles for both employees and administrators. The application offers distinct dashboard pages based on the user's role. Administrators have the capability to assign reviews to employees and manage employee details, while employees can only submit feedback for assigned reviews.
 
-Hosted link: https://employee-review-system-c8bj.onrender.com/
-Video link: https://vimeo.com/919632803?share=copy
-Inside this project
-From Admin's panel
-Add employee
-Delete employee
-Update employee details
-Assign review to employee
-Update review of employee
-From Employee's panel
-Submit reviews assigned to it
-View reviews given by others
-How to setup the project on local system
+Hosted Link
+Employee Review System
 
-Start by installing npm if you don't have it already.
-Navigate to Project Directory and run the following the command.
+Demo Link :- https://employee-review-system-c8bj.onrender.com/ 
+Demo Video :- https://vimeo.com/919632803?share=copy
+
+Features
+Admin Panel
+Add, delete, and update employee details
+Assign reviews to employees
+Update reviews submitted by employees
+Employee Panel
+Submit assigned reviews
+View feedback provided by others
+Setup Instructions
+Ensure npm is installed on your system.
+Navigate to the project directory and run the following command:
+Copy code
 npm install
-Run project
-npm start or nodemon index.js
-visit in your local browser- http://localhost:5000/
+To run the project:
+sql
+Copy code
+npm start
+or
+Copy code
+nodemon index.js
+Access the application in your local browser at: http://localhost:5000/
 Tech Stack
 NodeJS
 MongoDB
 ExpressJS
 EJS
 Bootstrap
-Libraries:
+Libraries
 bcryptjs
 connect-flash
 connect-mongo
